@@ -70,6 +70,32 @@ body{
 
 
 
+.nav-item{
+    padding-top: 20px;
+    margin-left:50%;
+}
+.nav-item li{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px ;
+    align-content: right;
+    font-size: 20px;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto Mono, monospace;
+
+}
+
+.nav-item ul li a:hover{
+    color: #f7df1e;
+    transition-duration: 1s;
+    font-size: 25px;
+   
+}
+
 
 
 
