@@ -1,0 +1,313 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    background-color: whitesmoke;
+
+}
+
+
+/****Nav bar*****/
+
+
+#container1{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("./images/austin.jpg") ;   
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+
+}
+.navbar-header{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+     
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+
+
+.nav-bar-logo{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.nav-bar-logo h3{
+    font-family: Roboto Mono, monospace;
+    padding-top: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+
+}
+.nav-bar-logo span:hover{
+    color: #f7df1e;
+    transition-duration: 1s;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-item{
+    padding-top: 20px;
+    margin-left:50%;
+}
+.nav-item li{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px ;
+    align-content: right;
+    font-size: 20px;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto Mono, monospace;
+
+}
+
+.nav-item ul li a:hover{
+    color: #f7df1e;
+    transition-duration: 1s;
+    font-size: 25px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Footer**/
+
+footer{
+    background-color: white;
+    width: 100%;
+}
+
+.foot{
+    padding: 30px 10px 20px 100px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.foot1{
+    width: 100%;
+}
+
+
+
+.foot1 h4{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #252b42;
+
+}
+
+.foot1 ul{
+    list-style: none;
+}
+.foot1 li{
+    padding-bottom: 10px;
+}
+.foot1 a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+
+
+
+
+.foot2a{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 11px;
+}
+.foot2a img{
+    width: 10%;
+    padding-bottom: 10px;
+}
+.foot2a p{
+    text-decoration: none;
+    color: #737373;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 770px) {
+
+    footer{
+        width: 100%;
+        background-color: white;
+    }
+    .foot{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        padding-left: 10%;
+    }
+    .foot1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .part2a img{
+        width: 5%;
+    }
+
+    .foot2a img{
+        width: 5%;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+/*****End of footer******/
+
+
+
+/*credit**/
+.credit{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.cr1{
+    margin-right: 50%;
+}
+.cr1 p{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 700;
+    color: #252b42;
+
+}
+
+.cr1 a{
+    text-decoration: none;
+    color: #252b42;
+}
+
+
+.cr1 a:hover{
+    color: #23A6F0;
+}
+
+
+
+.cr2 img{
+    width: 19px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+
+  .credit{
+      width: 100%;
+      display: block;
+  }
+
+  .cr1{
+      margin-bottom: 30px;
+  }
+
+  .cr2 img{
+    width: 19px;
+    margin-right: 20px;
+    }
+    
+
+
+}
+
+
+/*****End of credit******/
+
