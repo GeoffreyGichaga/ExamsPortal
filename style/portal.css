@@ -87,3 +87,127 @@
 
 }
 
+
+
+
+
+
+
+
+.card-title{
+    margin-left: 5%;
+    font-family: Roboto Mono, monospace;
+}
+
+
+
+
+
+.test-cards{
+    margin-left: 7%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.js-card{
+    background-color: #f7df1e;
+    width: 20%;
+    font-family: Roboto Mono, monospace;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 2%;
+    
+
+    
+}
+.js-card img{
+    width: 30%;
+    margin-left: 30%;
+}
+
+#quiz{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 23%;
+    margin-top: 5px;
+    font-family: Roboto Mono, monospace;
+
+}
+
+#quiz:hover{
+    border: 1px solid whitesmoke;
+}
+
+
+.html-card{
+    background-color: black;
+    width: 20%;
+    font-family: Roboto Mono, monospace;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 2%;
+    color: whitesmoke;
+
+    
+}
+.html-card img{
+    width: 30%;
+    margin-left: 30%;
+
+}
+
+#quiz1{
+    padding: 10px;
+    background-color: #dd4b25;
+    color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 23%;
+    margin-top: 5px;
+    font-family: Roboto Mono, monospace;
+
+}
+
+#quiz1:hover{
+    border: 1px solid whitesmoke;
+}
+
+
+
+.py-card{
+    background-color: #0bbad4;
+    width: 20%;
+    font-family: Roboto Mono, monospace;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 1%;
+
+    
+}
+.py-card img{
+    width: 30%;
+    margin-left: 30%;
+
+}
+
+#quiz2{
+    padding: 10px;
+    background-color: #fed444;
+    color: whitesmoke;
+    border: 1px solid #3775a6;
+    border-radius: 4px;
+    margin-left: 23%;
+    margin-top: 5px;
+    font-family: Roboto Mono, monospace;
+
+}
+
+#quiz2:hover{
+    border: 1px solid whitesmoke;
+}
