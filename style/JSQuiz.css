@@ -102,57 +102,6 @@ html body{
 
 
 
-.card-title{
-    margin-left: 5%;
-    font-family: Roboto Mono, monospace;
-}
-
-
-
-
-
-.t-cards{
-    margin-top: 2%;
-    margin-left: 7%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-
-}
-
-.js-card{
-    background-color: #f7df1e;
-    width: 20%;
-    height: 70%;
-    font-family: Roboto Mono, monospace;
-    font-weight: bold;
-    padding: 5px;
-    
-
-    
-}
-.js-card img{
-    width: 30%;
-    margin-left: 30%;
-}
-
-#quiz{
-    padding: 10px;
-    background-color: black;
-    color: whitesmoke;
-    border: 1px solid black;
-    border-radius: 4px;
-    margin-left: 23%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: Roboto Mono, monospace;
-
-}
-
-#quiz:hover{
-    border: 1px solid whitesmoke;
-}
 
 
 
@@ -169,34 +118,7 @@ html body{
 
 
 
-.results{
-    margin-left: 45%;
-    background-color: #f1f1f1;
-    width: 29%;
-    padding-top: 1px;
-    padding-left: 20px;
-    
-}
-.results h3{
-    font-family: monospace;
-    font-size: 20px;
-    margin-left: 10px;
-}
-.results hr{
-    color: black;
-}
 
 
-.total-results{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.vr{
-    border-left: 1px solid #9a9a9a ;
-    height: 180px;
-    margin-left: 28%;
-}
 
 
