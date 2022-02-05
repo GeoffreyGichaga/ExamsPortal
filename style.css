@@ -183,6 +183,251 @@ body{
 
 
 
+/*****Courses (Card-group)**********/
+.card-group{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+.card{
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
+    background-size: cover;
+    margin: 4%;
+    
+
+}
+.card:hover{
+    padding: 10px;
+    border: 2px solid #f7df1e;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.card .duration{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 9px;
+    font-family: Roboto Mono, monospace;
+    color: whitesmoke;
+}
+.card .duration:hover{
+    color: #f7df1e;
+    transition-duration: 3s;
+}
+
+.card img{
+    margin-left: 39%;
+    margin-top: 20px;
+}
+
+.card .lj {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: Lato, sans-serif;
+    color: whitesmoke;
+
+
+
+}
+
+.card .det1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: whitesmoke;
+
+
+}
+
+.card button{
+    font-family: Roboto Mono, monospace;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: white;
+    background: black;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.card button:hover{
+    border: 2px solid #f7df1e;
+}
+
+/******Card2*******/
+
+
+
+
+.card2{
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
+    background-size: cover;
+    margin: 4%;
+    
+
+}
+.card2:hover{
+    padding: 10px;
+    border: 2px solid #f7df1e;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.card2 .duration{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 9px;
+    font-family: Roboto Mono, monospace;
+    color: whitesmoke;
+}
+.card2 .duration:hover{
+    color: #f7df1e;
+    transition-duration: 3s;
+}
+
+.card2 img{
+    margin-left: 39%;
+    margin-top: 20px;
+}
+
+.card2 .lj {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: Lato, sans-serif;
+    color: whitesmoke;
+
+
+
+}
+
+.card2 .det1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: whitesmoke;
+
+
+}
+
+.card2 button{
+    font-family: Roboto Mono, monospace;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: white;
+    background: black;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.card2 button:hover{
+    border: 2px solid #f7df1e;
+}
+
+/*****card3****/
+
+
+
+
+.card3{
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
+    background-size: cover;
+    margin: 4%;
+    
+
+}
+.card3:hover{
+    padding: 5px;
+    border: 2px solid #f7df1e;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.card3 .duration{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 9px;
+    font-family: Roboto Mono, monospace;
+    color: whitesmoke;
+}
+.card3 .duration:hover{
+    color: #f7df1e;
+    transition-duration: 3s;
+}
+
+.card3 img{
+    margin-left: 39%;
+    margin-top: 20px;
+}
+
+.card3 .lj {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: Lato, sans-serif;
+    color: whitesmoke;
+
+
+
+}
+
+.card3 .det1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: whitesmoke;
+
+
+}
+
+.card3 button{
+    font-family: Roboto Mono, monospace;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: white;
+    background: black;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.card3 button:hover{
+    border: 2px solid #f7df1e;
+}
+
+
+
+
+/*****End of Courses**********/
+
+
+
 
 
 
