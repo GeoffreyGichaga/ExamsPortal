@@ -263,6 +263,84 @@ input:hover{
 
 
 /********Login form**********/
+
+
+
+
+.forms-SL{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    width: 80%;
+    
+
+}
+.forms-SL .text1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    width: 30%;
+
+
+    
+    
+}
+.forms-SL h3{
+    font-family: Roboto Mono, monospace;
+
+}
+
+
+.forms-SL .text1 h3{
+    width: 0%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 30%;
+    font-family: Roboto Mono, monospace;
+
+}
+
+#login-form .form-header{
+    text-align: center;
+
+}
+
+#login-form p{
+    margin-top: 20px ;
+    font-family: Roboto Mono, monospace;
+
+}
+
+
+
+input{
+    padding: 8px 80px 8px 3px;
+    border-radius: 2px;
+    border: 1.5px solid black;
+}
+input:hover{
+    border: 1px solid #f7df1e;
+    transition-duration: 0.5s;
+}
+::placeholder{
+    font-family: Roboto Mono, monospace;
+
+}
+
+#login{
+    padding: 9px 40px 9px 40px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-family: Roboto Mono, monospace;
+    margin-left: 40%;
+
+}
+#sign-up:hover{
+    border: 1px solid #f7df1e;
+    transition-duration: 0.5s;
+}
 /********End of Login form**********/
 
 
