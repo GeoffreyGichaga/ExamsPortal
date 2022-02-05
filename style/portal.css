@@ -35,3 +35,55 @@
 .top-menu li a:hover{
     color: #f7df1e;
 }
+
+
+
+
+
+
+
+
+
+.side-nav{
+    background-color: #073857;
+   height: 100%;
+   width: 4%;
+    position: fixed;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: 1px;
+   
+}
+.side-nav h3{
+    font-family: Roboto Mono, monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 90%;
+    font-size: 16px;
+}
+
+.menu img{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+
+.home img{
+    width: 80%;
+    margin-left: 8px;
+    
+}
+
+.courses img{
+    width: 80%;
+    margin-left: 15px;
+
+}
+
+.logout img{
+    width: 80%;
+    margin-left: 4px;
+
+}
+
