@@ -179,6 +179,10 @@ body{
 }
 
 /********Sigup form**********/
+.form-section{
+    display: none;
+}
+
 .forms-SL{
     display: flex;
     flex-direction: row;
