@@ -105,7 +105,7 @@ body{
 
 .container1-item1{
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-left: 30px;
 
 }
@@ -177,6 +177,103 @@ body{
 
 
 }
+
+/********Sigup form**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********End of Sigup form**********/
+
+
+/********Login form**********/
+/********End of Login form**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Label***/
+.label{
+    width: 10%;
+    border: 2px solid black;
+    font-family: Roboto Mono, monospace;
+    padding: 5px;
+
+
+}
+.label:hover{
+    border: 2px solid #f7df1e;
+    transition-duration: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
