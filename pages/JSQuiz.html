@@ -11,7 +11,7 @@
 <body>
     <div class="top-nav">
         <div class="logo">
-            <img src="./images/home.png" alt="">
+            <img src="../images/home.png" alt="">
             <h3>Dashboard</h3>
     
         </div>
@@ -19,7 +19,7 @@
         <div class="top-menu">
             <ul>
                 <li>
-                    <a href="#">My Course</a>
+                    <a href="#" onclick="courseFunction()">My Course</a>
                 </li>
     
                 <li>
@@ -39,23 +39,28 @@
      
     
         <div class="home">
-            <img src="./images/home (1).png" alt="">
-            <h3>Home</h3>
+            <a href="#" onclick="homeFunction()">
+            <img src="../images/home (1).png" alt="">
+            <h3>Home</h3></a>
             <!--SHould take us to the main home page-->
     
         </div>
     
         <div class="courses">
-            <img src="./images/book.png" alt="">
+            <a href="#" onclick="testsFunction()">
+            <img src="../images/book.png" alt="">
             <h3>Tests</h3>
+            </a>
             <!--SHould take us to the test page-->
 
     
         </div>
     
-        <div class="logout">
-            <img src="./images/logout.png" alt="">
+        <div class="logout" onclick="logoutFunction()">
+            <a href="#">
+            <img src="../images/logout.png" alt="">
             <h3>Logout</h3>
+            </a>
         <!--SHould take us to the main page-->
 
     
@@ -66,7 +71,132 @@
     
     </div>
 
+    <form> 
+        <h3 class="form-title">Javascript Basic</h3>
+
+        <h3>1.Inside which element do you put Javascript?</h3><br>
+
+        
+            <input type="radio" name="radio1" id="option1">&lt;section&gt;<br>
+            <input type="radio" name="radio1" id="option2">&lt;code&gt; <br>
+            <input type="radio" name="radio1" id="correct1">&lt;script&gt; <br>
+            <input type="radio" name="radio1" id="option4"> &lt;var&gt; <br>
+            
+
+       <p>2.Which of the following events occurs when the user clicks on an HTML element?</p> 
+
+
+
+        <input type="radio" name="radio2" id="option5">onchange<br>
+        <input type="radio" name="radio2" id="option6">onmouseover<br>
+        <input type="radio" name="radio2" id="correct7">onmouseclick<br>
+        <input type="radio" name="radio2" id="correct2">onclick<br>
+
+        
+        
+
+
+        
+
+
+
+
+        <h3>3.How do you get the DOM element with id in Javascript?</h3>
+
+        <input type="radio" name="radio3" id="option9">window.getElementById(..)<br>
+        <input type="radio" name="radio3" id="correct3">document.getElementById(..)<br>
+        <input type="radio" name="radio3" id="option10">page.getElementById(..)
+        <br>
+        <input type="radio" name="radio3" id="option11">document.innerHTML.getElementById(..)
+        <br>
+
     
+
+        <h3>4.How do you create a new function in Javascript?</h3>
+
+        <input type="radio" name="radio4" id="option13">new.function(){}
+        <br>
+        <input type="radio" name="radio4" id="correct4">function myFunction(){}
+        <br>
+        <input type="radio" name="radio4" id="option14">function.myFunction(){}
+        <br>
+        <input type="radio" name="radio4" id="option16">function=myFunction(){} 
+        <br>
+
+
+        
+
+
+
+        <h3>5.How do you create a Javascript array?</h3>
+
+
+        <input type="radio" name="radio5" id="option17">var fruits="banana","apple","peach";<br>
+        <input type="radio" name="radio5" id="correct5">var fruits=["banana","apple","peach"];<br>
+        <input type="radio" name="radio5" id="option19">var fruits=[1:"banana",2:"apple",3:"peach"];<br>
+        <input type="radio" name="radio5" id="option20">var fruits=1=("banana"),2=("apple"),3:("peach");<br>
+
+        
+
+
+        <h3>6.Can you set any style to HTML tag using Javascript?</h3>
+
+        <input type="radio" name="radio6" id="correct6">yes<br>
+        <input type="radio" name="radio6" id="option22">no<br>
+        
+
+        
+
+        <h3>7.The pop() method removes the last item from an array and returns a new array</h3>
+
+
+        <input type="radio" name="radio7" id="option23">false<br>
+        <input type="radio" name="radio7" id="correct7">true<br>
+
+        
+
+        <h3>8.What is called the functions with no return value?</h3>
+
+        <input type="radio" name="radio8" id="option25">Static function<br>
+        <input type="radio" name="radio8" id="option26">Method<br>
+        <input type="radio" name="radio8" id="correct8">Procedures<br>
+        <input type="radio" name="radio8" id="option28">Dynamic function<br>
+
+    
+
+
+
+        <h3>9.Javascript is not a case sensitive language</h3>
+
+        <input type="radio" name="radio9" id="correct9">True<br>
+        <input type="radio" name="radio9" id="option30">False<br>
+
+        
+
+        <h3>10.Where is the correct place to insert a Javascript link?</h3>
+
+        
+        <input type="radio" name="radio10" id="option31">The &lt;body&gt;section<br>
+        <input type="radio" name="radio10" id="correct10">Both the &lt;head&gt; section and the &lt;body&gt; section <br>
+        <input type="radio" name="radio10" id="option33">The &lt;head&gt; section<br>
+
+
+        <button id="quizSubmit" onclick="result()">submit</button>
+
+
+       
+
+
+
+
+        
+        
+
+    </form>
+
+    <!--&lt;section&gt;-->
+
+
 
     
 
@@ -75,6 +205,6 @@
 
 
     
-    
+<script src="../js/JSQuiz.js"></script>    
 </body>
 </html>

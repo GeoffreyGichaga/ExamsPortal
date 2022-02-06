@@ -67,11 +67,7 @@ html body{
     font-size: 16px;
 }
 
-.menu img{
-    width: 80%;
-    margin-left: 10px;
-    margin-top: 50px;
-}
+
 
 .home{
     margin-top: 70%;
@@ -94,6 +90,20 @@ html body{
     margin-left: 4px;
 
 }
+
+
+.side-nav a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 

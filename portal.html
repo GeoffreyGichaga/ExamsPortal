@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/portal.css">
+    <link rel="javascript" href="../Exam-Portal/js/portal.js">
     <title>Dashboard</title>
 </head>
 <body>
@@ -39,23 +40,28 @@
      
     
         <div class="home">
+            <a href="#" onclick="homeFunction()">
             <img src="./images/home (1).png" alt="">
-            <h3>Home</h3>
+            <h3>Home</h3></a>
             <!--SHould take us to the main home page-->
     
         </div>
     
         <div class="courses">
+            <a href="#" onclick="testsFunction()">
             <img src="./images/book.png" alt="">
             <h3>Tests</h3>
+            </a>
             <!--SHould take us to the test page-->
 
     
         </div>
     
-        <div class="logout">
+        <div class="logout" onclick="logoutFunction()">
+            <a href="#">
             <img src="./images/logout.png" alt="">
             <h3>Logout</h3>
+            </a>
         <!--SHould take us to the main page-->
 
     
@@ -72,7 +78,7 @@
             <h3>Javascript</h3>
             <p>* 30mins</p>
             <p>* 10 questions</p>
-            <button id="quiz">Start the Quiz</button>
+            <button id="quiz" onclick="myFunction()">Start the Quiz</button>
     
     
     
@@ -127,6 +133,8 @@
 
 
     
-    
+<script src="./js/portal.js"></script> 
+<script src="./js/JSQuiz.js"></script>   
+
 </body>
 </html>
