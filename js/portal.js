@@ -23,3 +23,9 @@ function myFunction()
 }
 
 
+function result(){
+    var score=0;
+    
+
+
+}

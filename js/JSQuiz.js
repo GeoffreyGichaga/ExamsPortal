@@ -85,8 +85,12 @@ function result(){
 
 
 
-    alert("Your have scored:" +score+ " Marks");
-    window.location="../portal.html";
+    alert("Your have scored:" +score+ " Marks" );
+
+    
+    
 }
+
+
 
 

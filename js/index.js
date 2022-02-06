@@ -1,101 +1,10 @@
-/***********
- * var formsSL = document.getElementsByClassName('.formsSL');
-var btn = document.getElementById("#signUp");
-var closeForm = document.getElementsByClassName(".closeForm")
-
-
-function toggleModal()
+function signUpForm()
 {
-    modal.classList.toggle("show-modal")
+    window.location="./pages/sigunp.html";
 }
 
 
-function windowOnClick(event)
+function loginForm()
 {
-    if(event.target == toggleModal)
-    {
-        toggleModal();
-    }
+    window.location="./pages/login.html";
 }
-
-btn.addEventListener("click", toggleModal);
-closeForm.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);
-
-
- */
-
-
-
-function homeFunction()
-{
-    window.location="./portal.html";
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*****
-btn.onclick = function()
-{
-    modal.style.display = "block";
-} 
-
-window.onclick = function(close){
-    if(close.target == modal)
-    {
-        modal.style.display = "none"
-    }
-}
-  
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/****const fname = document.getElementById('fname').value;
-    const sname = document.getElementById('sname').value;
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-    const cpassword = document.getElementById('cpassword').value;
-
-    return;*/
