@@ -178,300 +178,26 @@ body{
 
 }
 
-/********Sigup form**********/
-
-.formsSL{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20%;
-    width: 80%;
-    margin-top: 10%;
-
-    
-
-}
-.formsSL .text1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
-    background-size: cover;
-    margin-right: 20px;
-    width: 30%;
-
-
-    
-    
-}
-.formsSL h3{
-    font-family: Roboto Mono, monospace;
-
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+    .container1Item1{
+        margin-left: 2px;
+    }
+    .container1Item1 .p1{
+    font-size: 25px;
 }
 
-.formsSL .text1 h3{
-    width: 0%;
-    text-align: center;
-    color: whitesmoke;
-    padding: 30%;
-    font-family: Roboto Mono, monospace;
-
-}
-
-
-.formsSL2{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20%;
-    width: 80%;
-    margin-top: 10%;
-
-    
-
-}
-.formsSL2 .text1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
-    background-size: cover;
-    margin-right: 20px;
-    width: 30%;
-
-
-    
-    
-}
-.formsSL2 h3{
-    font-family: Roboto Mono, monospace;
-
-}
-
-.formsSL2 .text1 h3{
-    width: 0%;
-    text-align: center;
-    color: whitesmoke;
-    padding: 30%;
-    font-family: Roboto Mono, monospace;
-
+.container1Item1 .p2{
+    font-size: 15px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#signup-form p{
-    margin-top: 20px ;
-    font-family: Roboto Mono, monospace;
-
 }
 
 
-
-input{
-    padding: 8px 80px 8px 3px;
-    border-radius: 2px;
-    border: 1.5px solid black;
-}
-input:hover{
-    border: 1px solid #f7df1e;
-    transition-duration: 0.5s;
-}
-::placeholder{
-    font-family: Roboto Mono, monospace;
-
-}
-
-#signUp{
-    padding: 9px 40px 9px 40px;
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 4px;
-    border: 1px solid black;
-    font-family: Roboto Mono, monospace;
-    margin-left: 40%;
-
-}
-#signUp:hover{
-    border: 1px solid #f7df1e;
-    transition-duration: 0.5s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/********End of Sigup form**********/
-
-
-/********Login form**********/
-
-
-
-
-.forms-SL{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20%;
-    width: 80%;
-    
-
-}
-.forms-SL .text1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/walkator.jpg) ;     background-position: center;
-    background-size: cover;
-    margin-right: 20px;
-    width: 30%;
-
-
-    
-    
-}
-.forms-SL h3{
-    font-family: Roboto Mono, monospace;
-
-}
-
-
-.forms-SL .text1 h3{
-    width: 0%;
-    text-align: center;
-    color: whitesmoke;
-    padding: 30%;
-    font-family: Roboto Mono, monospace;
-
-}
-
-#login-form .form-header{
-    text-align: center;
-
-}
-
-#login-form p{
-    margin-top: 20px ;
-    font-family: Roboto Mono, monospace;
-
-}
-
-
-
-input{
-    padding: 8px 80px 8px 3px;
-    border-radius: 2px;
-    border: 1.5px solid black;
-}
-input:hover{
-    border: 1px solid #f7df1e;
-    transition-duration: 0.5s;
-}
-::placeholder{
-    font-family: Roboto Mono, monospace;
-
-}
-
-#login{
-    padding: 9px 40px 9px 40px;
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 4px;
-    border: 1px solid black;
-    font-family: Roboto Mono, monospace;
-    margin-left: 40%;
-
-}
-#sign-up:hover{
-    border: 1px solid #f7df1e;
-    transition-duration: 0.5s;
-}
-/********End of Login form**********/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**Label***/
 .label{
-    width: 10%;
-    border: 2px solid black;
     font-family: Roboto Mono, monospace;
-    padding: 5px;
-
-
 }
-.label:hover{
-    border: 2px solid #f7df1e;
-    transition-duration: 0.5s;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -720,7 +446,227 @@ input:hover{
 
 
 
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+
+    .card-group{
+        display: block;
+        margin-top: 5%;
+    }
+
+    .card{
+        width: auto;
+        margin-bottom: 8%;
+        padding-bottom: 10px;
+    }
+
+    .card2{
+        width: auto;
+        margin-bottom: 8%;
+        padding-bottom: 10px;
+
+
+    }
+
+    .card3{
+        width: auto;
+        margin-bottom: 8%;
+        padding-bottom: 10px;
+
+
+    }
+
+}
+
+
+
 /*****End of Courses**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Footer**/
+
+footer{
+    background-color: white;
+    width: 100%;
+}
+
+.foot{
+    padding: 30px 10px 20px 100px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.foot1{
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+
+
+
+.foot1 ul{
+    list-style: none;
+}
+.foot1 li{
+    padding-bottom: 10px;
+}
+.foot1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: Roboto Mono, monospace;
+    font-size: 13px;
+}
+
+
+
+
+.foot2a{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 11px;
+}
+.foot2a img{
+    width: 10%;
+    padding-bottom: 10px;
+}
+.foot2a p{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: Roboto Mono, monospace;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 770px) {
+
+    footer{
+        width: 100%;
+        background-color: white;
+    }
+    .foot{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        padding-left: 10%;
+    }
+    .foot1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .part2a img{
+        width: 5%;
+    }
+
+    .foot2a img{
+        width: 5%;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+/*****End of footer******/
+
+
+
+/*credit**/
+.credit{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 11%;
+    display: flex;
+    flex-direction: row;
+}
+.cr1{
+    margin-right: 50%;
+}
+.cr1 p{
+    font-family: Roboto Mono, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.cr1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.cr1 a:hover{
+    color: #f7df1e;
+}
+
+
+
+.cr2 img{
+    width: 19px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+
+  .credit{
+      width: 100%;
+      display: block;
+  }
+
+  .cr1{
+      margin-bottom: 30px;
+  }
+
+  .cr2 img{
+    width: 19px;
+    margin-right: 20px;
+    }
+    
+
+
+}
+
+
+/*****End of credit******/
 
 
 

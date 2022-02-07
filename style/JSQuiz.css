@@ -1,4 +1,4 @@
-html body{
+html body {
     overflow-x: hidden;
 }
 
@@ -30,15 +30,17 @@ html body{
     padding-right: 30px;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 768px) {
 
-.top-menu li a{
-    text-decoration: none;
-    font-family: Roboto Mono,monospace;
-    color: black;
-}
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        display: none;
+    }
 
-.top-menu li a:hover{
-    color: #f7df1e;
+    
+
 }
 
 
@@ -99,6 +101,30 @@ html body{
 }
 
 
+
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+
+    .side-nav{
+        width: 5%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 form{
     margin-left: 10%;
     margin-top: 5%;
@@ -143,66 +169,37 @@ form .form-title{
 
 
 
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+
+    .form{
+        width: 100%;
+    }
+
+    #quizSubmit{
+        margin-left: 30%;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#myBtn{
-    margin-left: 5%;
 
 }
 
 
-.modal {
-    display: none; 
-    position: fixed; 
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    
-    
-  }
-  
 
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
-    border: 1px solid #888;
-    width: 20%; 
-    height: 20%;
-  }
-  
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

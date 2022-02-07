@@ -14,11 +14,17 @@ Geoffrey Gichaga .G
 + [Authors Info](#author-Info)
 
 ## Description
+The site displays information about the available courses/Tests,and a quizboard with 10 questions, with the following view on a desktop mode display:
 
-### Banner
-### Company Goals 
+### landing page
+![lpage](./images/JavSchool.png)
 
-### Reviews and some of our Patnering Companies
+### Courses/Tests
+![cpage](./images/JavSchool2.png)
+
+### Quiz Board
+![qpage](./images/Dashboard.png)
+
 
 
 
@@ -29,7 +35,7 @@ Geoffrey Gichaga .G
 
 ## Setup/Installation Requirements
 * Site can be accessed through the repo live link
-* A phone .tablet or a desktop computer
+* A phone ,tablet or a desktop computer
 * Site is responsive on screens with a min-width of 280px and max-width 770px 
 
 

@@ -1,10 +1,6 @@
-function signUpForm()
+function quizPage()
 {
-    window.location="./pages/sigunp.html";
+    window.location="./pages/JSQuiz.html";
 }
 
 
-function loginForm()
-{
-    window.location="./pages/login.html";
-}
