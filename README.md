@@ -1,6 +1,6 @@
 # School Exams Portal
 #### 5/02/2022
-This is a basic html/css Javscript Exams portal site for a school  by the name Strath
+This is a basic html/css Javscript Exams portal site for testing coding skills
 #### By 
 Geoffrey Gichaga .G
 
