@@ -85,11 +85,30 @@ function result(){
 
 
 
-    alert("Your have scored:" +score+ " Marks" );
+   if(score>=8)
+    {
+        alert("You have Excellently passed the test");
+        
+    }
+    else if(score>=5)
+    {
+        alert("You have fairly passed the test");
+    }
+    else
+    {
+        alert("You have poorly perfomed on  the test,Kindly retake") ;
+        
+    }
 
     
     
 }
+
+
+
+
+
+
 
 
 
