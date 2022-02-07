@@ -46,6 +46,7 @@ Languages used in developing this site include:
 * HTML 
 * CSS
 * JavaScript
+* Designed with figa : https://www.figma.com/file/iGeo23FvQ2ocEPMiReyF4b/Untitled?node-id=0%3A1
 ## Support and contact details
 You can report any issue you encounter with the site on      :geoffrey.githinji@student.moringaschool.com
 ### License
