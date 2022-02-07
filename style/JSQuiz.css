@@ -1,16 +1,19 @@
-html body {
+html,body {
     overflow-x: hidden;
+
 }
+
+
 
 
 .top-nav{
     background-color: #f1f1f1;
     display: flex;
     flex-direction: row;
-    width: 110%;
+    width: 100%;
     padding: 0px;
-    margin-top: -10px;
-    margin-left: -10px;
+    margin-top: 0px;
+    margin-left: 0px;
 
 }
 .logo{
@@ -32,6 +35,7 @@ html body {
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
 
+    
     .logo{
         width: 100%;
     }
@@ -106,7 +110,20 @@ html body {
 @media only screen and (min-width: 280px) and (max-width: 768px) {
 
     .side-nav{
-        width: 5%;
+        width: 12%;
+        padding: 5px;
+        height: 100%;
+        position: fixed;
+        
+    }
+    .home h3{
+        text-align: left;
+    }
+    .home img{
+        margin-left: 0;
+    }
+    .logout img{
+        margin-left: 0;
     }
     
     
@@ -128,7 +145,7 @@ html body {
 form{
     margin-left: 10%;
     margin-top: 5%;
-    width: 50%;
+    width: auto;
     font-family: Roboto Mono, monospace;
     background-color: whitesmoke;
     padding-left: 20px;
@@ -172,11 +189,17 @@ form .form-title{
 @media only screen and (min-width: 280px) and (max-width: 768px) {
 
     .form{
-        width: 100%;
+        width: auto;
     }
 
     #quizSubmit{
-        margin-left: 30%;
+        margin-left: 28%;
+    }
+
+
+    input[type="radio"]
+    {
+        margin-bottom: 5px ;
     }
 
 
